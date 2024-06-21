@@ -1,0 +1,83 @@
+/* style.css */
+
+/* Gaya untuk judul card */
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Gaya untuk form */
+form {
+    margin-top: 20px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: #f0f4f8; /* Warna latar belakang form */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Gaya untuk label */
+label {
+    font-weight: bold;
+    color: #444; /* Warna teks label */
+    display: block;
+    margin-bottom: 8px;
+}
+
+/* Gaya untuk input teks dan select box */
+input[type="text"],
+select {
+    width: 94%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    text-align: center; /* Teks rata tengah */
+}
+
+/* Gaya untuk tombol */
+input[type="submit"],
+.btn-secondary {
+    margin-top: 20px;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 48%; /* Mengatur lebar tombol menjadi 48% */
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+/* Gaya untuk tombol Simpan */
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+}
+
+/* Gaya untuk tombol Batal */
+.btn-secondary {
+    background-color: #6c757d;
+    color: #fff;
+    border: none;
+}
+
+.btn-secondary:hover {
+    background-color: #5a626a; /* Warna latar belakang tombol Batal saat dihover */
+}
+
+/* Gaya untuk pilihan select box */
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+    text-align-last: center; /* Teks rata tengah pada select box */
+}
